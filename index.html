@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="shortcut icon" href="img/iconeDoSite.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <form id="forms">
+        <div id="conteudo">
+            <p id="titulo">Faça seu cadastro</p>
+
+            <label class="subtitulo">Nome</label>
+            <input type="text" placeholder="Seu nome" class="input" required>
+
+            <label class="subtitulo">Email</label>
+            <input type="email" placeholder="Seu email" class="input" required>
+
+            <label class="subtitulo">Telefone</label>
+            <input type="text" placeholder="Seu telefone" class="input" id="telefone" required>
+
+            <label class="subtitulo">Data de nascimento</label>
+            <input type="date" class="input">
+
+            <label class="subtitulo">Selecione suas linguagens</label>
+            <div id="selecao">
+                <input type="checkbox" class="botaoSelecione" id="html"
+                <label for="html" class="selecione">HTML</label>
+
+                <input type="checkbox" class="botaoSelecione" id="css">
+                <label for="css" class="selecione">CSS</label>
+
+                <input type="checkbox" class="botaoSelecione" id="js">
+                <label for="js" class="selecione">JS</label>
+            </div>
+            <br>
+
+            <button type="submit" id="botao">Enviar</button>
+
+            <div id="imagens">
+                <a href="https://github.com/" target="_blank"><img src="./img/logoGitHub.png" alt="logo github"
+                        class="img"></a>
+                <a href="https://www.instagram.com/" target="_blank"><img src="./img/logoInstagram.png"
+                        alt="logo instagram" class="img"></a>
+                <a href="https://www.linkedin.com/" target="_blank"><img src="./img/logoLinkedin.png"
+                        alt="logo linkedIN" class="img"></a>
+            </div>
+        </div>
+    </form>
+</body>
+
+</html>
